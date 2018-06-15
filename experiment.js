@@ -12,7 +12,7 @@ var is_compatible = (!is_safari && height >= min_height && width >= min_width );
 
 if(!is_compatible) {
   window.location.href = url_low;
-    };
+    }
 
 else {
   window.location.href = url_high;
