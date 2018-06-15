@@ -11,16 +11,9 @@ var width = window.screen.availWidth;
 var is_compatible = (!is_safari && height >= min_height && width >= min_width );
 
 if(!is_compatible) {
-
-    var safari_exclusion = {
   window.location.href = url_low;
     };
 
-    var timeline_safari = [];
-
-    timeline_safari.push(safari_exclusion);
-    jsPsych.init({timeline: timeline_safari});
-
-} else {
+else {
   window.location.href = url_high;
 }
