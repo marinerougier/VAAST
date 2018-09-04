@@ -1,8 +1,8 @@
 // à editer : 
 var min_height = 900;
 var min_width  = 1600;
-var url_high        = "https://www.psytoolkit.org/cgi-bin/psy2.4.1/survey?s=VTz2S";
-var url_low        = "https://www.psytoolkit.org/cgi-bin/psy2.4.1/survey?s=UQNka";
+var url_high        = "https://www.psytoolkit.org/cgi-bin/psy2.4.1/survey?s=JpDxK";
+var url_low        = "https://www.psytoolkit.org/cgi-bin/psy2.4.1/survey?s=xwCgx";
 
 // script -------------------------------------------------------------------------------------------
 var is_safari = /^((?!chrome|android).)*safari+ie/i.test(navigator.userAgent);
